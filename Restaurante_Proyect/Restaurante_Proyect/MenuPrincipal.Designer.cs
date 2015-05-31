@@ -1,6 +1,6 @@
 ﻿namespace Restaurante_Proyect
 {
-    partial class Form1
+    partial class MenuPrincipal
     {
         /// <summary>
         /// Variable del diseñador requerida.
