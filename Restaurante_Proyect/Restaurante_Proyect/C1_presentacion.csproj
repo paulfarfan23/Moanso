@@ -68,11 +68,17 @@
     <Compile Include="FormGestionarTrabajador.Designer.cs">
       <DependentUpon>FormGestionarTrabajador.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistroProducto.cs">
+    <Compile Include="FormPagos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRegistroProducto.Designer.cs">
-      <DependentUpon>FormRegistroProducto.cs</DependentUpon>
+    <Compile Include="FormPagos.Designer.cs">
+      <DependentUpon>FormPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporte.Designer.cs">
+      <DependentUpon>FormReporte.cs</DependentUpon>
     </Compile>
     <Compile Include="ListaMesas.cs">
       <SubType>Form</SubType>
@@ -106,8 +112,11 @@
     <EmbeddedResource Include="FormGestionarTrabajador.resx">
       <DependentUpon>FormGestionarTrabajador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistroProducto.resx">
-      <DependentUpon>FormRegistroProducto.cs</DependentUpon>
+    <EmbeddedResource Include="FormPagos.resx">
+      <DependentUpon>FormPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporte.resx">
+      <DependentUpon>FormReporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaMesas.resx">
       <DependentUpon>ListaMesas.cs</DependentUpon>

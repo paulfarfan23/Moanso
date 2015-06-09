@@ -39,10 +39,10 @@
             this.texNombre = new System.Windows.Forms.TextBox();
             this.etiNombre = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.barOpciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataAlumnos)).BeginInit();
             this.SuspendLayout();
@@ -100,10 +100,10 @@
             this.dataAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataAlumnos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
-            this.nombre,
-            this.Tipo,
-            this.Descripcion,
-            this.correo});
+            this.descripcion,
+            this.stock,
+            this.tipoProducto,
+            this.precio});
             this.dataAlumnos.Location = new System.Drawing.Point(12, 102);
             this.dataAlumnos.MultiSelect = false;
             this.dataAlumnos.Name = "dataAlumnos";
@@ -146,33 +146,31 @@
             this.id.ReadOnly = true;
             this.id.Visible = false;
             // 
-            // nombre
+            // descripcion
             // 
-            this.nombre.HeaderText = "Nombre";
-            this.nombre.Name = "nombre";
-            this.nombre.ReadOnly = true;
-            this.nombre.Width = 200;
+            this.descripcion.HeaderText = "Descripción";
+            this.descripcion.Name = "descripcion";
+            this.descripcion.ReadOnly = true;
+            this.descripcion.Width = 200;
             // 
-            // Tipo
+            // stock
             // 
-            this.Tipo.HeaderText = "Tipo";
-            this.Tipo.Name = "Tipo";
-            this.Tipo.ReadOnly = true;
-            this.Tipo.Width = 80;
+            this.stock.HeaderText = "Stock";
+            this.stock.Name = "stock";
+            this.stock.ReadOnly = true;
+            this.stock.Width = 200;
             // 
-            // Descripcion
+            // tipoProducto
             // 
-            this.Descripcion.HeaderText = "Descripcion";
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            this.Descripcion.Width = 200;
+            this.tipoProducto.HeaderText = "Tipo de Producto";
+            this.tipoProducto.Name = "tipoProducto";
+            this.tipoProducto.ReadOnly = true;
             // 
-            // correo
+            // precio
             // 
-            this.correo.HeaderText = "Stock";
-            this.correo.Name = "correo";
-            this.correo.ReadOnly = true;
-            this.correo.Width = 200;
+            this.precio.HeaderText = "Precio";
+            this.precio.Name = "precio";
+            this.precio.ReadOnly = true;
             // 
             // Form1
             // 
@@ -206,10 +204,10 @@
         private System.Windows.Forms.TextBox texNombre;
         private System.Windows.Forms.Label etiNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn correo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stock;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipoProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn precio;
     }
 }
 

@@ -36,6 +36,8 @@
             this.controlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteDiarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteMensualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +83,9 @@
             // 
             // controlToolStripMenuItem
             // 
+            this.controlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reporteDiarioToolStripMenuItem,
+            this.reporteMensualToolStripMenuItem});
             this.controlToolStripMenuItem.Name = "controlToolStripMenuItem";
             this.controlToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.controlToolStripMenuItem.Text = "Reporte";
@@ -98,6 +103,18 @@
             this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
             this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cerrarToolStripMenuItem.Text = "Cerrar";
+            // 
+            // reporteDiarioToolStripMenuItem
+            // 
+            this.reporteDiarioToolStripMenuItem.Name = "reporteDiarioToolStripMenuItem";
+            this.reporteDiarioToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.reporteDiarioToolStripMenuItem.Text = "Reporte Diario";
+            // 
+            // reporteMensualToolStripMenuItem
+            // 
+            this.reporteMensualToolStripMenuItem.Name = "reporteMensualToolStripMenuItem";
+            this.reporteMensualToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.reporteMensualToolStripMenuItem.Text = "Reporte Mensual";
             // 
             // MenuPrincipal
             // 
@@ -125,6 +142,8 @@
         private System.Windows.Forms.ToolStripMenuItem controlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteDiarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteMensualToolStripMenuItem;
 
     }
 }
