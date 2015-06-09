@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Restaurante_Proyect
 {
-    public partial class FormReporte : Form
+    public partial class FormReportePeriodico : Form
     {
-        public FormReporte()
+        public FormReportePeriodico()
         {
             InitializeComponent();
         }
