@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuscarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarProducto.Designer.cs">
+      <DependentUpon>BuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPedidoCocinero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaPedidoCocinero.Designer.cs">
+      <DependentUpon>ConsultaPedidoCocinero.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDatosProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +112,12 @@
     <Compile Include="DetallePedido.Designer.cs">
       <DependentUpon>DetallePedido.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BuscarProducto.resx">
+      <DependentUpon>BuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaPedidoCocinero.resx">
+      <DependentUpon>ConsultaPedidoCocinero.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDatosProducto.resx">
       <DependentUpon>FormDatosProducto.cs</DependentUpon>
     </EmbeddedResource>
