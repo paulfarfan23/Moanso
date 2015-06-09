@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Restaurante_Proyect
 {
-    public partial class MenuPrincipal : Form
+    public partial class Datos_Trabajador : Form
     {
-        public MenuPrincipal()
+        public Datos_Trabajador()
         {
             InitializeComponent();
         }
 
-        private void planificacionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Restaurante_Proyect
+namespace FormGestionarProducto
 {
-    public partial class MenuPrincipal : Form
+    public partial class Form1 : Form
     {
-        public MenuPrincipal()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void planificacionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

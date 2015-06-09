@@ -34,8 +34,6 @@
             this.gestionarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionarPagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.controlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registroProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registroUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -50,7 +48,7 @@
             this.sistemaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(457, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(578, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -67,39 +65,25 @@
             this.planificacionToolStripMenuItem.Name = "planificacionToolStripMenuItem";
             this.planificacionToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.planificacionToolStripMenuItem.Text = "Planificacion";
+            this.planificacionToolStripMenuItem.Click += new System.EventHandler(this.planificacionToolStripMenuItem_Click);
             // 
             // gestionarProductoToolStripMenuItem
             // 
             this.gestionarProductoToolStripMenuItem.Name = "gestionarProductoToolStripMenuItem";
-            this.gestionarProductoToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.gestionarProductoToolStripMenuItem.Text = "Gestionar Pedido";
+            this.gestionarProductoToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.gestionarProductoToolStripMenuItem.Text = "Gestionar Producto";
             // 
             // gestionarPagoToolStripMenuItem
             // 
             this.gestionarPagoToolStripMenuItem.Name = "gestionarPagoToolStripMenuItem";
-            this.gestionarPagoToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.gestionarPagoToolStripMenuItem.Text = "Gestionar Pago";
+            this.gestionarPagoToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.gestionarPagoToolStripMenuItem.Text = "Gestionar Trabajador";
             // 
             // controlToolStripMenuItem
             // 
-            this.controlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroProductoToolStripMenuItem,
-            this.registroUsuarioToolStripMenuItem});
             this.controlToolStripMenuItem.Name = "controlToolStripMenuItem";
-            this.controlToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.controlToolStripMenuItem.Text = "Control";
-            // 
-            // registroProductoToolStripMenuItem
-            // 
-            this.registroProductoToolStripMenuItem.Name = "registroProductoToolStripMenuItem";
-            this.registroProductoToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.registroProductoToolStripMenuItem.Text = "Registro Producto";
-            // 
-            // registroUsuarioToolStripMenuItem
-            // 
-            this.registroUsuarioToolStripMenuItem.Name = "registroUsuarioToolStripMenuItem";
-            this.registroUsuarioToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.registroUsuarioToolStripMenuItem.Text = "Registro Usuario";
+            this.controlToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.controlToolStripMenuItem.Text = "Reporte";
             // 
             // sistemaToolStripMenuItem
             // 
@@ -119,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 261);
+            this.ClientSize = new System.Drawing.Size(578, 386);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuPrincipal";
@@ -139,8 +123,6 @@
         private System.Windows.Forms.ToolStripMenuItem gestionarProductoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionarPagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem controlToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registroProductoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registroUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
 

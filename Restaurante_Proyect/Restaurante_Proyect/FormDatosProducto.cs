@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Restaurante_Proyect
 {
-    public partial class MenuPrincipal : Form
+    public partial class FormDatosProducto : Form
     {
-        public MenuPrincipal()
+        public FormDatosProducto()
         {
             InitializeComponent();
-        }
-
-        private void planificacionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
